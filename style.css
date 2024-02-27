@@ -1,0 +1,86 @@
+body{
+    max-height: fit-content;
+    background-color: hsl(0, 0%, 94%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.section {
+    width: 50%;
+    height: 50%;
+    place-items: center;
+    margin: 12% auto;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px 20px 40px 20px;
+    border-radius: 15px 15px 100px 15px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('/assets/fonts/Poppins-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('/assets/fonts/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('/assets/fonts/Poppins-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('/assets/fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/assets/fonts/Poppins-Bold.ttf');
+}
+
+label{
+    font-family: 'Poppins-Bold';
+}
+
+.input-div{
+    text-align: start;
+    color: hsl(0, 1%, 44%);
+}
+
+.date-input{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+input{
+    margin-top: 10px;
+    width: 40%;
+    height: 2.4rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family: 'Poppins-Bold';
+    color: hsl(0, 0%, 8%);
+    padding: 5px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 8%);
+}
+
+.spacing-div{
+    padding: 30px;
+}
