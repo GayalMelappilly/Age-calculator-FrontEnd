@@ -15,18 +15,19 @@ input::-webkit-inner-spin-button {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(259, 100%, 65%);
 }
 
 .section {
     width: 50%;
-    height: 50%;
+    height: 30rem;
     place-items: center;
-    margin: 12% auto;
+    margin: 5% auto;
+    display: flex;
     justify-content: center;
     background-color: hsl(0, 0%, 100%);
     padding: 40px 20px 40px 20px;
-    border-radius: 15px 15px 100px 15px;
+    border-radius: 15px 15px 200px 15px;
 }
 
 @font-face {
@@ -56,21 +57,21 @@ input::-webkit-inner-spin-button {
 
 label{
     font-family: 'Poppins-Bold';
+    color: hsl(0, 1%, 44%);
+    width: fit-content;
+    height: fit-content;
 }
 
 .input-div{
-    text-align: start;
-    color: hsl(0, 1%, 44%);
-}
-
-.date-input{
-    display: inline-flex;
-    justify-content: flex-start;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 input{
+    margin-right: -20px;
     margin-top: 10px;
-    width: 40%;
+    width: 150px;
     height: 2.4rem;
     border-radius: 5px;
     font-size: 1.4rem;
@@ -78,9 +79,89 @@ input{
     color: hsl(0, 0%, 8%);
     padding: 5px;
     border-style: solid;
-    border-color: hsl(0, 0%, 8%);
+    border-color: hsl(0, 0%, 86%);
+}
+
+input:focus{
+    outline: none !important;
+    border:solid hsl(259, 100%, 65%);
 }
 
 .spacing-div{
     padding: 30px;
+}
+
+.sub-img{
+    background-color: hsl(259, 100%, 65%);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.sub-img:hover{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.display-div{
+    margin-top: -160px;
+}
+
+.display p{
+    font-family: 'Poppins-ExtraBoldItalic';
+    font-size: 5rem;
+    margin-bottom: -140px;
+}
+
+.display2 p{
+    font-family: 'Poppins-ExtraBoldItalic';
+    font-size: 3rem;
+    margin-bottom: -140px;
+}
+
+.display2{
+    padding: 50px;
+}
+
+.display2 #age{
+    color: hsl(259, 100%, 65%);
+    font-size: 3rem;
+}
+
+.display2 #wish{
+    font-size: 2.5rem;
+}
+
+.display{
+    padding: 50px;
+}
+
+.display span{
+    color:hsl(259, 100%, 65%);
+    font-size: 6rem;
+}
+
+.btn-div hr{
+    width: 80%;
+    float: left;
+}
+
+.btn-div{
+    margin-top: px;
+}
+
+#disBday{
+    width: 60%;
+    height: 50%;
+    margin: 1rem auto;
+}
+
+#bdayText{
+    font-size: 4rem;
+}
+
+#bdayDate{
+    font-size: 1rem;
+}
+
+.age{
+    font-size: 0.3rem;
 }
