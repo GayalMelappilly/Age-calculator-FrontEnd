@@ -26,16 +26,15 @@ function submitInput(){
     if(dYear == 0){
         dYear == '--'
     }
-    
 
-    console.log(day+'/'+month+'/'+year)
-    console.log("CURRENT : "+dDay+'/'+dMonth+'/'+dYear)
+    alert(dYear)
+    
 
     if(dDay == '--' && dMonth == '--'){
         $('#disDate').attr('hidden', true)
         $('#disBday').attr('hidden', false)
         $('#age').text(dYear)
-    }else if(dDay == '--' && dMonth == '--' && dYear == 0){
+    }else if(dYear == 0 && dDay == '--' && dMonth == '--'){
         $('#disDate').attr('hidden', true)
         $('#disBday').attr('hidden', false)
         $('#wish').text('Welcome to the world')
