@@ -1,3 +1,29 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('/assets/fonts/Poppins-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('/assets/fonts/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('/assets/fonts/Poppins-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('/assets/fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/assets/fonts/Poppins-Bold.ttf');
+}
+
 body{
     max-height: fit-content;
     background-color: hsl(0, 0%, 94%);
@@ -28,31 +54,6 @@ input::-webkit-inner-spin-button {
     background-color: hsl(0, 0%, 100%);
     padding: 40px 20px 40px 20px;
     border-radius: 15px 15px 200px 15px;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Regular.ttf');
-}
-@font-face {
-    font-family: 'Poppins-BoldItalic';
-    src: url('assets/fonts/Poppins-BoldItalic.ttf');
-}
-@font-face {
-    font-family: 'Poppins-ExtraBold';
-    src: url('assets/fonts/Poppins-ExtraBold.ttf');
-}
-@font-face {
-    font-family: 'Poppins-ExtraBoldItalic';
-    src: url('assets/fonts/Poppins-ExtraBoldItalic.ttf');
-}
-@font-face {
-    font-family: 'Poppins-Italic';
-    src: url('assets/fonts/Poppins-Italic.ttf');
-}
-@font-face {
-    font-family: 'Poppins-Bold';
-    src: url('assets/fonts/Poppins-Bold.ttf');
 }
 
 label{
